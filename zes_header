@@ -13,5 +13,6 @@ define table zes_header {
   inv_type   : abap.char(20);
   inter      : abap.char(20);
   currency   : abap.char(3);
+  status     : abap.char(1);
 
 }
