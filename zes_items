@@ -9,10 +9,10 @@ define table zes_items {
   key id      : abap.int8 not null;
   key item_id : abap.int8 not null;
   pyp         : abap.char(20);
-  kdv         : abap.int8;
-  base_amount : abap.int8;
-  base_try    : abap.int8;
-  kdv_amount  : abap.int8;
-  kdv_try     : abap.int8;
+  kdv         : abap.dec(5,2);
+  base_amount : abap.dec(5,2);
+  base_try    : abap.dec(5,2);
+  kdv_amount  : abap.dec(5,2);
+  kdv_try     : abap.dec(5,2);
 
 }
