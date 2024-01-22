@@ -1,7 +1,7 @@
 @AccessControl.authorizationCheck: #NOT_REQUIRED
 @EndUserText.label: 'Item & Header Birleşik CDS'
-define root view entity ZES_HDR_ITM
-  as select from ZES_HDR_CDS as _Header
+define root view entity ZXX_HDR_ITM
+  as select from ZXX_HDR_CDS as _Header
   association [1..*] to ZES_ITM_CDS as _Item on _Header.id = _Item.id
 
 {
