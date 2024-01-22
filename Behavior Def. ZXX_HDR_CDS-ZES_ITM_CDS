@@ -1,8 +1,8 @@
 managed implementation in class zbp_es_hdr_cds unique;
 //strict ( 2 ); //Uncomment this line in order to enable strict mode 2. The strict mode has two variants (strict(1), strict(2)) and is prerequisite to be future proof regarding syntax and to be able to release your BO.
 
-define behavior for ZES_HDR_CDS //alias <alias_name>
-persistent table zes_header
+define behavior for ZXX_HDR_CDS //alias <alias_name>
+persistent table zxx_header
 lock master
 authorization master ( instance )
 early numbering
@@ -27,7 +27,7 @@ early numbering
     }
 }
 
-define behavior for ZES_ITM_CDS //alias <alias_name>
+define behavior for ZXX_ITM_CDS //alias <alias_name>
 persistent table zes_items
 lock dependent by _SOhdr
 authorization dependent by _SOhdr
