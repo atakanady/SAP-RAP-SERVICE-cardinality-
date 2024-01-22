@@ -1,4 +1,4 @@
-@AbapCatalog.sqlViewName: 'ZES_HEADER_VIEW1'
+@AbapCatalog.sqlViewName: 'ZXX_HEADER_VIEW1'
 @AbapCatalog.compiler.compareFilter: true
 @AbapCatalog.preserveKey: true
 @AccessControl.authorizationCheck: #NOT_REQUIRED
