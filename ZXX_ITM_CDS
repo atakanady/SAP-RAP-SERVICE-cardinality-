@@ -1,4 +1,4 @@
-@AbapCatalog.sqlViewName: 'ZES_ITEM_VIEW1'
+@AbapCatalog.sqlViewName: 'ZXX_ITEM_VIEW1'
 @AbapCatalog.compiler.compareFilter: true
 @AbapCatalog.preserveKey: true
 @AccessControl.authorizationCheck: #NOT_REQUIRED
@@ -6,9 +6,9 @@
 
  
 
-define view ZES_ITM_CDS as select from zes_items as SOItem
+define view ZXX_ITM_CDS as select from zXX_items as SOItem
 
-association to parent ZES_HDR_CDS as _SOhdr
+association to parent ZXX_HDR_CDS as _SOhdr
 
     on $projection.id = _SOhdr.id
 
